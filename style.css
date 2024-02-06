@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(91, 88, 88);
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.unlimited {
+    background-image: url(netflix-background);
+    background-repeat: no-repeat;
+    width: 84.3%;
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.image,
+.download,
+.watch,
+.create {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 10%;
+    margin-top: 0.7%;
+}
+
+.create {
+    width: 80%;
+}
+
+p {
+    font-size: 25px;
+}
+
+.content {
+    padding: 5%;
+}
+
+.text {
+    padding: 2.5%;
+    width: 70%;
+    background-color: black;
+    color: rgb(239, 243, 243);
+    border: 1px solid white;
+    font-size: large;
+}
+
+text a:hover {
+    background-color: white;
+    color: grey;
+}
+
+.login-user-info {
+    padding: 1.4%;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: larger;
+    margin-bottom: 5%;
+    margin-right: 2%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-bottom: 0%;
+    padding: 3%;
+    font-size: large;
+}
+
+.navbar a {
+    color: grey;
+}
+
+.dropdown {
+    margin-left: 15%;
+    padding: 0.7%;
+    background-color: black;
+    color: #fff;
+    width: 10%;
+}
+
+.India {
+    margin-left: 15%;
+    margin-bottom: 0%;
+    font-size: 100%;
+}
+
+.name {
+    margin-left: 15%;
+}
+
+.number {
+    text-decoration: underline;
+
+}
+
+.call {
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    font-size: medium;
+    margin-top: 0.7%;
+    padding-top: 5%;
+}
+
+.input {
+    padding: 1%;
+}
+
+.ready {
+    font-size: 1.2rem;
+}
+
+.language {
+    background-color: black;
+}
+
+.question {
+    text-align: center;
+    background-color: black;
+    color: #faf8f8;
+    padding-top: 3%;
+    margin-top: 0.7%;
+    padding-top: 4%;
+
+}
+
+.get {
+    width: 16%;
+}
+
+.netflix p {
+    width: 95%;
+
+}
+
+
+.netflix p a {
+    width: 80%;
+    background-color: #2a2727;
+    font-size: 20px;
+    text-decoration: none;
+    color: #faf9f9;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 2.5% 1%;
+    margin-left: 15%;
+}
+
+p a:hover {
+    background-color: rgb(71, 64, 64);
+    color: white;
+
+}
+
+.FAQ {
+    background-color: black;
+    color: white;
+    display: inline;
+    margin-bottom: auto;
+    
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
